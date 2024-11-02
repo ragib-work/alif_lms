@@ -49,6 +49,32 @@ INSTALLED_APPS = [
 
     # my-apps
     "commando",
+    "users",
+    "cart",
+    "access",
+    "billing",
+    "add_to_user",
+    "categories",
+    "certificates",
+    "achievements",
+    "chats",
+    "instructors",
+    "enrollments",
+    "courses",
+    "quizzes",
+    "media",
+    "leaderboard",
+    "notifications",
+    "purchases",
+    "reviews",
+    "study_groups",
+    "subscription",
+    "help",
+    "wishlists",
+    "discussions",
+    "progress",
+    "search",
+
 
 ]
 
