@@ -1,0 +1,24 @@
+-r base.txt
+
+# Production-specific packages
+django-storages[s3]
+django-anymail[sendgrid]
+django-maintenance-mode
+
+# Monitoring & Logging
+newrelic
+django-prometheus
+elastic-apm
+
+# Security
+django-stronghold
+django-admin-honeypot
+
+# Performance
+django-cachalot
+django-compression-middleware
+
+# Railway.app specific
+# Environment and deployment
+gunicorn  # Add gunicorn for production server
+psycopg2-binary  # PostgreSQL adapter for Railway
